@@ -1,0 +1,52 @@
+.notification {
+  width: 364px;
+  border-radius: 18px;
+  box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+  animation: fadeIn ease-in 0.2s;
+  cursor: default;
+  display: block;
+  z-index: 1;
+  padding: none;
+}
+
+.notification-heading {
+  width: 364px;
+  position: relative;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  height: 48px;
+  right: 24px;
+  bottom: 20px;
+  color: white;
+  background: #FF9138;
+  padding: 12px 0 0 12px;
+}
+
+.notification-content {
+  width: 364px;
+}
+
+.notification-message {
+  max-height: 56vh; /* view port height của trình duyệt (bằng browser height) */
+  overflow-y: auto; /* Vượt qua chiều cao cart thì hiện thanh scroll */
+}
+
+.notification-list-item {
+  padding-left: 0;
+  list-style: none;
+  height: 60px;
+  width: 340px;
+  cursor: pointer;
+}
+
+.notification-list-item:hover {
+
+}
+
+.notification-item-title {
+  
+}
+
+.notification-item-sub {
+  
+}

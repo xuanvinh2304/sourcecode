@@ -1,0 +1,32 @@
+.userinformation-container {
+  display: flex;
+}
+
+.userinformation-container-child {
+  background: #B1B1B1;
+  width: 1320px;
+}
+
+.userinformation-main {
+  background: white;
+  width: 1112px;
+  height: 397px;
+  margin: 96px;
+  border-radius: 12px;
+}
+
+.userinformation-img {
+  width: 248px;
+  height: 248px;
+  position: relative;
+}
+
+.userinformation-icon {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #FF7506;
+/* White */
+
+border: 2px solid #FFFFFF;
+}

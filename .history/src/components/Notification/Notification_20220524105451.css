@@ -1,0 +1,66 @@
+.notification {
+  top: 32px;
+  right: 66px;
+  width: 364px;
+  border-radius: 18px;
+  box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+  animation: fadeIn ease-in 0.2s;
+  cursor: default;
+  display: block;
+  z-index: 1;
+}
+
+.notification-heading {
+  position: absolute;
+  width: 364px;
+  border-radius: 18px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  color: white;
+  background: #FF9138;
+}
+
+.notification-list-item {
+  padding-left: 0;
+  list-style: none;
+  max-height: 56vh; /* view port height của trình duyệt (bằng browser height) */
+  overflow-y: auto; /* Vượt qua chiều cao cart thì hiện thanh scroll */
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+}
+
+.notification-item:hover {
+  background-color: #F8F8F8;
+}
+
+.notification-item-info {
+  width: 100%; 
+  margin-right: 12px;
+}
+
+.notification-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification-item-name {
+  font-size: 1.4rem;
+  line-height: 2rem; /* */
+  max-height: 4rem; /* Set trường hợp name quá dài và độ cao */
+  overflow: hidden; /* */
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+  flex: 1; /* Chiếm hết không gian có thể chiếm, trở lại kích thước ban đầu */
+  padding-right: 16px;
+  /* Hiện dấu '...' khi vượt quá độ dài */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: left; /* Canh chữ sang trái */
+}

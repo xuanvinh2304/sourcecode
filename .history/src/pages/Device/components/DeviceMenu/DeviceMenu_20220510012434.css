@@ -1,0 +1,26 @@
+.devicemenu-container {
+
+}
+
+.devicemenu-title {
+  display: flex;
+}
+
+.avatar-device {
+  margin: 28px 0 44px 300px;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.devicemenu-menu {
+
+}
+
+.menu--active-state {
+
+}

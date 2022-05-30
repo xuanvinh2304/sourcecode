@@ -1,0 +1,12 @@
+.btn-signout {
+  margin-top: 200px;
+  color: #FF7506;
+  background-color: black;
+}
+
+.btn {
+  background-color: black!important;
+  border-color: transparent!important;
+  color: #FF7506!important;
+}
+

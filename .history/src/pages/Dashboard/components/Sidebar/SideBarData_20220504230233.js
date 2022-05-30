@@ -1,0 +1,35 @@
+import React from 'react';
+import { TableOutlined, DesktopOutlined, WechatOutlined, ApartmentOutlined, AreaChartOutlined, SettingOutlined, MoreOutlined } from '@ant-design/icons';
+
+export const SideBarData = [
+  {
+    title: "DashBoard",
+    icon: <TableOutlined />,
+    link: '/dashboard'
+  },
+  {
+    title: "Thiết bị",
+    icon: <DesktopOutlined />,
+    link: '/device'
+  },
+  {
+    title: "Dịch vụ",
+    icon: <WechatOutlined />,
+    link: '/'
+  },
+  {
+    title: "Cấp số",
+    icon: <ApartmentOutlined />,
+    link: '/'
+  },
+  {
+    title: "Báo cáo",
+    icon: <AreaChartOutlined />,
+    link: '/'
+  },
+  {
+    title: "Cài đặt hệ thống",
+    icon: <SettingOutlined />,
+    link: '/'
+  }
+]

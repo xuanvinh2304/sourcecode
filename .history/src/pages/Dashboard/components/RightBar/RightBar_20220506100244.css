@@ -1,0 +1,105 @@
+.rightbar-container {
+  width: 400px;
+  height: 780px;
+}
+
+.avatar {
+  display: flex;
+  margin: 20px 0 40px 0;
+}
+
+.avatar-icon {
+  background: #FFAC6A;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 24px 0 100px;
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+
+}
+
+.overview {
+  width: 118px;
+  height: 36px;
+  left: 24px;
+  top: 104px;
+  margin-left: 20px;
+
+  /* 24/24 Bold */
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+}
+
+.rightbar-table {
+  display: flex;
+  background-color: #ccc;
+  border-radius: 12px;
+  width: 360px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.item-1 {
+ margin-left: 12px;
+}
+
+.item-1__number {
+  color: #535261;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  width: 64px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.item-1__icon {
+  color: #FF7506;
+}
+
+.item-2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #7E7D88;
+  margin: 18px 0 0 30px;
+}
+
+.item-3 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FF7506;
+  margin: 20px 0 0 18px;
+}
+
+/* .site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+} */
+

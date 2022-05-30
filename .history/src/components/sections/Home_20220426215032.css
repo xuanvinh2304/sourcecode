@@ -1,0 +1,19 @@
+.navbar {
+
+}
+
+.container {
+  display: flex;
+}
+
+.navbar-brand {
+  justify-content: flex-end;
+}
+
+.navbar-end {
+  
+}
+
+.navbar-items {
+
+}

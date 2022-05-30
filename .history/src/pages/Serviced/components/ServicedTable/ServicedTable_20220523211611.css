@@ -1,0 +1,15 @@
+.servicedtable-container {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.servicedtable-container .ant-table-row :nth-child(6){
+  width: 70px;
+  position: relative;
+  bottom: 8px;
+  border: none;
+}
+
+.servicedtable-container .ant-table-row:hover :nth-child(6){
+  background: none;
+}

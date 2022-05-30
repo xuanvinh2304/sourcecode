@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+}
+
+.login {
+  width: 500px;
+}
+
+.img {
+  cursor: pointer; 
+  width: 120px; 
+  margin-left: 200px ;
+}
+
+.one {
+  display: flex;
+}
+
+.two {
+  margin: 100px 800px 0 0;
+}
+
+.btn {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 22px;
+  right: 8px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}
+
+

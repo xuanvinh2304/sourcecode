@@ -1,0 +1,30 @@
+.sub-menu {
+  margin-bottom: 200px;
+}
+
+.btn-signout {
+  margin: 0 0 0 8px;
+  color: #FF7506;
+  background: #FFF2E7;
+  align-items: center;
+  padding: 12px;
+  width: 176px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.btn-button {
+  background: #FFF2E7!important;
+  border-color: transparent!important;
+  color: #FF7506!important;
+  bottom: 8px;
+  left: 20px;
+}
+
+.btn-button:focus {
+  border: none!important;
+}
+
+.btn-icon svg {
+  margin: 0 0 0 12px;
+}

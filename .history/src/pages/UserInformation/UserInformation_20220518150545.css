@@ -1,0 +1,15 @@
+.userinformation-container {
+  display: flex;
+}
+
+.userinformation-main {
+
+}
+
+.userinformation-img {
+
+}
+
+.userinformation-avatar-img {
+  width: 50px!important;
+}

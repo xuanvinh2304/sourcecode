@@ -1,0 +1,31 @@
+.newnumber-table {
+  background-color: white;
+  margin: 20px 20px 40px 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.newnumber-table-child {
+  margin-left: 20px;
+}
+
+.newnumber-table-title__1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FF7506;
+}
+
+.newnumber-table-title__2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;  
+  color: #535261;
+}
+

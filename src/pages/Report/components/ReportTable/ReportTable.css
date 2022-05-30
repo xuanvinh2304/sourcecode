@@ -1,0 +1,7 @@
+.reporttable-container .ant-table-cell img {
+  margin: -2px 8px 0 0;
+}
+
+.reporttable-container .ant-table-row :last-child {
+  text-decoration: none;
+}

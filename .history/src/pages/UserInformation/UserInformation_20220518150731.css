@@ -1,0 +1,11 @@
+.userinformation-container {
+  display: flex;
+}
+
+.userinformation-main {
+  background-color: #000;
+}
+
+.userinformation-img {
+  width: 50px;
+}

@@ -1,0 +1,11 @@
+.password-icon {
+  position: absolute;
+  top: 200px;
+  right: 28px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+.test {
+  background-color: bl;
+}

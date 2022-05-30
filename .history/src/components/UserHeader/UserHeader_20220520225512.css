@@ -1,0 +1,48 @@
+.deviceheader-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.avatar-device {
+  padding-left: 134px;
+  display: flex;
+  width: 288px;
+}
+
+.avatar-device-div {
+  background: #FFF2E7;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 8px 20px 0 120px;
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+.avatar-device-icon {
+  color: #FFAC6A;
+  background: #FFF2E7!important;
+  margin: 0!important;
+}
+
+.avatar-img-title {
+  display: flex;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  width: 118px;
+}

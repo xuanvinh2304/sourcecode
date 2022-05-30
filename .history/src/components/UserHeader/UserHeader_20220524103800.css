@@ -1,0 +1,116 @@
+.deviceheader-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.avatar-device {
+  padding-left: 134px;
+  display: flex;
+  width: 288px;
+}
+
+.avatar-device-div {
+  background: #FFF2E7;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 8px 20px 0 120px;
+  position: relative;
+}
+
+.notification {
+  top: calc(100% + 7px);
+  right: 1px;
+  background-color: var(--white-color);
+  width: 400px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+  animation: fadeIn ease-in 0.2s;
+  cursor: default;
+  display: block;
+  z-index: 1;
+}
+
+.notification-heading {
+  text-align: left;
+  margin: 8px 0 8px 12px;
+  font-size: 1,4rem;
+  color: #999;
+  font-weight: 400;
+}
+
+.notification-list-item {
+  padding-left: 0;
+  list-style: none;
+  max-height: 56vh; /* view port height của trình duyệt (bằng browser height) */
+  overflow-y: auto; /* Vượt qua chiều cao cart thì hiện thanh scroll */
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+}
+
+.notification-item:hover {
+  background-color: #F8F8F8;
+}
+
+.notification-item-info {
+  width: 100%; 
+  margin-right: 12px;
+}
+
+.notification-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification-item-name {
+  font-size: 1.4rem;
+  line-height: 2rem; /* */
+  max-height: 4rem; /* Set trường hợp name quá dài và độ cao */
+  overflow: hidden; /* */
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+  flex: 1; /* Chiếm hết không gian có thể chiếm, trở lại kích thước ban đầu */
+  padding-right: 16px;
+  /* Hiện dấu '...' khi vượt quá độ dài */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: left; /* Canh chữ sang trái */
+}
+
+.avatar-device-icon {
+  color: #FFAC6A;
+  background: #FFF2E7!important;
+  margin: 0!important;
+}
+
+.avatar-device-icon__toggle {
+  color: white;
+  margin: 0!important;
+  background: #141311!important;
+  width: 34px;
+  height: 32px;
+  border-radius: 20px;
+}
+
+.avatar-img-title {
+  display: flex;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  width: 118px;
+}

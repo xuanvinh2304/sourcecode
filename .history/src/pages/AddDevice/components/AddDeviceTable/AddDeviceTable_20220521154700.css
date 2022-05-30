@@ -1,0 +1,9 @@
+.add-device-table {
+  width: 1200px;
+  margin: 50px 0 0 20px;
+  background: white;
+}
+
+.add-device-table__all {
+  display: flex;
+}

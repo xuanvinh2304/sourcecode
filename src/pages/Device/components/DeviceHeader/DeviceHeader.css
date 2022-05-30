@@ -1,0 +1,99 @@
+.deviceheader-container {
+  width: 1316px;
+}
+
+.deviceheader-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.deviceheader-title--1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7E7D88;
+  width: 94px;
+  margin-left: 18px;
+}
+
+.deviceheader-title--2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FF7506;
+  padding-left: 20px;
+  width: 400px;
+  margin-right: 352px;
+}
+
+.deviceheader-option {
+  display: flex;
+  margin: 20px 0 0 20px;
+}
+
+.menu--active-state-1 {
+  margin-right: 150px;
+}
+
+.menu--active-state-2 {
+  margin-right: 550px;
+ }
+
+.deviceheader-option-sub {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282739;
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: #FF7506;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #FF7506;
+  box-shadow: none;
+}
+
+.ant-input-group > .ant-input:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 12px!important;
+  margin-top: 12px;
+}
+
+.ant-input-search .ant-input:hover {
+  border-color: #FF7506;
+  box-shadow: none;
+}
+
+.ant-input-search .ant-input:hover, .ant-input-search .ant-input:focus {
+  border-color: #FF7506;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  border-color: #FF7506;
+}
+
+.menu--active-search svg {
+  margin-top: 4px!important;
+}
+
+.menu--active-search .ant-input-group-addon {
+  background: #c4c2c2!important;
+}

@@ -1,0 +1,20 @@
+.navbar {
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  margin: 280px 0 20px 40px;
+}
+
+.navbar-end {
+  
+}
+
+.navbar-items {
+
+}

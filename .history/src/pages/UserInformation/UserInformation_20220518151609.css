@@ -1,0 +1,16 @@
+.userinformation-container {
+  display: flex;
+}
+
+.userinformation-child {
+  background: #B1B1B1;
+  width: 1320px;
+}
+
+.userinformation-main {
+  background: white;
+}
+
+.userinformation-img {
+  width: 50px;
+}

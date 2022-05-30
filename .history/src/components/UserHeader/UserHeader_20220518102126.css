@@ -1,0 +1,61 @@
+.deviceheader-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.deviceheader-title--1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* gray blue/gray 4 - place holder */
+  color: #7E7D88;
+  width: 92px;
+}
+
+.deviceheader-title--2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+  padding-left: 20px;
+  width: 628px;
+}
+
+.avatar-device {
+  padding-left: 134px;
+  display: flex;
+}
+
+.avatar-device-icon {
+  background: #FFAC6A;
+  right: 180px;
+  top: 40px;
+  width: 52px!important;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 10px 0 68px;
+  cursor: pointer;
+}
+
+.avatar-img-title {
+  display: flex;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  width: 118px;
+}

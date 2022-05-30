@@ -1,0 +1,8 @@
+.device-container {
+  width: 100vw;
+  height: 800px;
+}
+
+.device-header {
+  display: flex;
+}

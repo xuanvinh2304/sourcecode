@@ -1,0 +1,44 @@
+.rightbar-container {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avatar-icon {
+  background: #FFAC6A;
+  width: 20px;
+  height: 20px;
+  border-radius: 32px;
+}
+
+.avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 48px;
+}
+
+.avatar-title {
+
+}
+
+.overview {
+  width: 118px;
+  height: 36px;
+  left: 24px;
+  top: 104px;
+
+  /* 24/24 Bold */
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+}

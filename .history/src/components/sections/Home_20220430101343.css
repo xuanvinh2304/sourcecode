@@ -1,0 +1,11 @@
+.btn__home-signup {
+  background-color: #FF9138!important;
+  margin: 5px 0 0 120px;
+  padding: 0 40px 0 40px!important;
+  border-radius: 8px!important;
+}
+
+.btn__home-signin {
+  padding: 0 40px 0 40px!important;
+  border-radius: 8px!important;
+}

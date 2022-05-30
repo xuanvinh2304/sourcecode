@@ -1,0 +1,37 @@
+body {
+  display: none;
+  margin: 8px;
+}
+.userinformation-container {
+  display: flex;
+}
+
+.userinformation-container-child {
+  background: #B1B1B1;
+  width: 1320px;
+}
+
+.userinformation-main {
+  background: #FFFFFF;
+  width: 1112px;
+  height: 397px;
+  margin: 96px;
+  border-radius: 12px;
+}
+
+.userinformation-img {
+  width: 248px;
+  height: 248px;
+  position: relative;
+}
+
+.userinformation-icon {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 208px;
+  right: 32px;
+  background: #FF7506;
+  color: #FFFFFF;
+  border-radius: 50px;
+}

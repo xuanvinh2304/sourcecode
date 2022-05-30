@@ -1,0 +1,130 @@
+.deviceheader-container {
+  width: 1316px;
+}
+
+/* .deviceheader-container p {
+  width: 484px!important;
+} */
+.deviceheader-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.deviceheader-title--1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* gray blue/gray 4 - place holder */
+  color: #7E7D88;
+  width: 92px;
+}
+
+.deviceheader-title--2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+  padding-left: 20px;
+  width: 628px;
+}
+
+.avatar-device {
+  padding-left: 134px;
+  display: flex;
+}
+
+.avatar-device-icon {
+  background: #FFAC6A;
+  right: 180px;
+  top: 40px;
+  width: 52px!important;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 10px 0 68px;
+  cursor: pointer;
+}
+
+.avatar-img-title {
+  display: flex;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  display: flex;
+  width: 118px;
+}
+
+.deviceheader-option {
+  display: flex;
+  margin: 20px 0 0 20px;
+}
+
+.menu--active-state-1 {
+  margin-right: 150px;
+}
+
+.menu--active-state-2 {
+  margin-right: 550px;
+ }
+
+.deviceheader-option-sub {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Gray/$-gray-500 */
+  color: #282739;
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: #FF7506;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #FF7506;
+  box-shadow: none;
+}
+
+.ant-input-group > .ant-input:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 12px!important;
+  margin-top: 12px;
+}
+
+.ant-input-search .ant-input:hover {
+  border-color: #FF7506;
+  box-shadow: none;
+}
+
+.ant-input-search .ant-input:hover, .ant-input-search .ant-input:focus {
+  border-color: #FF7506;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  border-color: #FF7506;
+}

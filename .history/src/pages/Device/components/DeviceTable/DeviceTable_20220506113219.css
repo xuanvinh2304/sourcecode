@@ -1,0 +1,7 @@
+.devicetable-container {
+  width: 100%;
+}
+
+.devicetable-title {
+  display: flex;
+}

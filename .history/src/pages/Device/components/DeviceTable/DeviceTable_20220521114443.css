@@ -1,0 +1,208 @@
+.devicetable-container {
+  width: 100%;
+}
+
+.btn-add {
+  position: relative;
+  top: 52px;
+  left: 1258px;
+  width: 120px;
+  height: 94px;
+  background: #FFF2E7;
+  box-shadow: 0px 0px 6px #E7E9F2;
+  border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
+}
+
+.btn-add-icon > span {
+  background: #FF9138;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  color: white;
+  transform: rotate(-180deg);
+  top: 16px;
+  border-radius: 8px 0px 0px 8px;
+  right: 52px;
+}
+
+.ant-table-wrapper {
+  width: 1200px;
+  position: relative; 
+  transition: opacity 0.3s;
+  width: 1188px;
+  bottom: 58px;
+  margin-left: 12px;
+}
+
+.tabs{
+  margin-left: 30px;
+  width: 1230px;
+}
+
+/* Css của Tabs */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FFB800 !important;
+  font-weight: 700;
+  text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  bottom: 0;
+  background-color: #FFB800;
+  color: #FFB800;
+}
+
+.ant-tabs-tab-btn:focus, .ant-tabs-tab-remove:focus, .ant-tabs-tab-btn:active, .ant-tabs-tab-remove:active {
+  color: #FFB800 !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #FFB800 !important;
+}
+
+.searcher{
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 30px;
+  background-color: #EDEDED;
+  height: inherit;
+  width: 270px;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 30px;
+  color:#919191; 
+}
+
+.ant-modal-title {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  line-height: 22px;
+  word-wrap: break-word;
+
+}
+
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-bottom: none !important;
+  border-radius: 10px !important;
+}
+
+.ant-modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 10px !important;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+  pointer-events: auto;
+}
+
+.ant-picker:hover, .ant-picker-focused {
+  border-color: #FFB800 !important;
+  border-right-width: 1px;
+}
+
+.ant-picker-suffix{
+  font-weight: 600;
+  color: #FFB800 !important;
+}
+
+.ant-picker-date-panel .ant-picker-content th {
+  width: 36px;
+  color: #ff6600 !important;
+  font-weight: 600 !important;
+}
+
+.ant-picker-cell-inner::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border: none !important ;
+  border-radius: 2px;
+  content: '';
+}
+.ant-picker-cell-in-view .ant-picker-cell-inner:hover{
+  background-color: #FFBA7B !important;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.ant-table-thead > tr > th{
+  position: relative;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-align: left;
+  height: 20px !important;
+  background: #F1F4F8 !important;
+  border-bottom: 1px solid #ffffff;
+  transition: none !important;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  position: relative;
+  padding-left: 6px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  overflow-wrap: break-word;
+  font-size: 12px !important;
+}
+
+.ant-table-tbody > tr:nth-child(even){
+  background-color: #F7F8FB;
+}
+
+.ant-table-pagination-right {
+  justify-content: center !important;
+}
+
+.ant-pagination-item a {
+  display: block;
+  padding: 0 6px;
+  color: #FF993C !important;
+  transition: none;
+}
+
+.ant-pagination-item-active {
+  font-weight: 500;
+  background: #fff;
+  border-color: #FF993C !important;
+}
+
+.ant-table-thead {
+  background: #FF993C;
+}
+
+.ant-table-row :last-child {
+  text-decoration: underline;
+}
+
+.ant-table-row :nth-child(6) {
+  margin: 0;
+  width: 300px;
+  line-height: 2rem; /* */
+  max-height: 4rem; /* Set trường hợp name quá dài và độ cao */
+  overflow: hidden; /* */
+  /* Hiện dấu '...' khi vượt quá độ dài */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.ant-table-content {
+  width: 1188px;
+  border-radius: 50px;
+}
+
+
+
+

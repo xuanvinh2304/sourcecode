@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  
+}
+
+.signin {
+  width: 600px!important;
+  background:  #B1B1B1;
+  height: 1000px
+}
+
+.logo {
+  cursor: pointer; 
+  width: 120px; 
+  margin: 100px 0 80px 140px!important;
+}
+
+
+
+.form-size {
+  width: 400px;
+}
+
+.btn {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 22px;
+  right: 8px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}
+
+
+
+

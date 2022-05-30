@@ -1,0 +1,9 @@
+.device-container {
+  display: flex;
+  width: 100vw;
+  height: 766px;
+}
+
+.device-container .device-container-child {
+  background: B1B1B1;
+}

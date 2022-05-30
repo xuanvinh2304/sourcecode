@@ -1,0 +1,103 @@
+.devicemenu-container {
+  width: 1316px;
+}
+
+/* .devicemenu-container p {
+  width: 484px!important;
+} */
+
+.devicemenu-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.devicemenu-title--1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* gray blue/gray 4 - place holder */
+  color: #7E7D88;
+  width: 92px;
+}
+
+.devicemenu-title--2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+  padding-left: 20px;
+  width: 800px;
+}
+
+.avatar-device {
+  padding-left: 0px;
+  display: flex;
+}
+
+.avatar-device-icon {
+  background: #FFAC6A;
+  right: 180px;
+  top: 40px;
+  width: 34px;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 24px 0 100px;
+  cursor: pointer;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  display: flex;
+}
+
+.devicemenu-option {
+  display: flex;
+  margin: 20px 0 0 20px;
+}
+
+.menu--active-state-1 {
+  margin-right: 150px;
+}
+
+.menu--active-state-2 {
+  margin-right: 550px;
+ }
+
+.devicemenu-option-sub {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Gray/$-gray-500 */
+  color: #282739;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 18px;
+  margin-top: 12px;
+ }
+
+.ant-input-group .ant-input {
+  border-radius: 18px;
+
+}
+
+.menu--active-search {
+
+}

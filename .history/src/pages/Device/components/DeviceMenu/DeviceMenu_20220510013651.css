@@ -1,0 +1,39 @@
+.devicemenu-container {
+  width: 1200px;
+}
+
+.devicemenu-title {
+  display: flex;
+}
+
+.avatar-device {
+  margin-left: 400px;
+}
+
+.avatar-device-icon {
+  background: #FFAC6A;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 24px 0 100px;
+  cursor: pointer;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+ top: 100;
+}
+
+.devicemenu-container p {
+  width: 200px;
+}
+
+.menu--active-state {
+
+}

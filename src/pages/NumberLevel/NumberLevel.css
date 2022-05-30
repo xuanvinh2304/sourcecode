@@ -1,0 +1,11 @@
+.numberlevel-container {
+  display: flex;
+  width: 100vw;
+  height: 766px;
+}
+
+.numberlevel-container .numberlevel-container-child {
+  background: #c4c2c2;
+  height: 778px;
+}
+

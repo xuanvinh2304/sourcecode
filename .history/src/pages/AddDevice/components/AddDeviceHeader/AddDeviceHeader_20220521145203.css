@@ -1,0 +1,50 @@
+.add-device-header {
+  width: 1316px;
+}
+
+.add-device-title {
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.add-device-title--1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* gray blue/gray 4 - place holder */
+  color: #7E7D88;
+  width: 94px;
+  margin-left: 18px;
+}
+
+.add-device-title--2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+  padding-left: 20px;
+  width: 400px;
+  margin-right: 352px;
+}
+
+.add-device-title--3 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  /* Orange/$-Orange-500 */
+  color: #FF7506;
+  padding-left: 20px;
+  width: 400px;
+  margin-right: 352px;
+}

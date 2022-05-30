@@ -1,0 +1,51 @@
+.devicemenu-container {
+  width: 1200px;
+}
+
+.devicemenu-title {
+  display: flex;
+  width: 1200px;
+}
+
+.avatar-device {
+  margin-left: 800px;
+}
+
+.avatar-device-icon {
+  background: #FFAC6A;
+  position: relative;
+  right: 180px;
+  top: 40px;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  margin: 12px 24px 0 100px;
+  cursor: pointer;
+}
+
+.avatar-device img {
+  width: 52px;
+  height: 52px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.avatar-title {
+  display: flex;
+}
+
+.devicemenu-container p {
+  width: 200px;
+}
+
+.menu--active-state-1 {
+
+}
+
+.menu--active-state-2 {
+
+}
+
+.menu--active-search {
+  
+}

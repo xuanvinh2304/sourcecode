@@ -1,0 +1,10 @@
+.newnumber-container {
+  display: flex;
+  width: 100vw;
+  height: 766px;
+}
+
+.newnumber-container .newnumber-container-child {
+  background: #c4c2c2;
+  height: 778px;
+}

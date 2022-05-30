@@ -1,0 +1,241 @@
+body {
+    display: none;
+    margin: 8px;
+}
+
+.mainboard-container {
+  width: 934px;
+  height: 778px;
+  display: block;
+  background-color: #B1B1B1;
+}
+
+.mainboard-title {
+    width: 102px;
+    height: 30px;
+    left: 0px;
+    top: 5px;
+
+    /* 20/20 Bold */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    /* Orange/$-Orange-400 */
+
+    color: #FF9138;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 12px 0 0 12px;
+}
+
+.mainboard-subtitle {
+    position: absolute;
+    width: 162px;
+    height: 36px;
+    left: 224px;
+    top: 104px;
+    /* 24/24 Bold */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    /* Orange/$-Orange-500 */
+    color: #FF7506;
+}
+
+.featured {
+  width: 910;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.featuredItem {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  background-color: #fff;
+}
+
+.featuredTitle{
+    font-size: 20px;
+    display: flex;
+}
+
+.featuredIcon-1 {
+    background-color: #6493F9;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #f1dfdf;
+    border-radius: 20px;
+}
+
+.featuredIcon-2 {
+    background-color: #35C75A;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #f1dfdf;
+    border-radius: 20px;
+}
+
+.featuredIcon-3 {
+    background-color: #FFAC6A;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #f1dfdf;
+    border-radius: 20px;
+}
+
+.featuredIcon-4 {
+    background-color: #F86D6D;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #f1dfdf;
+    border-radius: 20px;
+}
+
+.anticon svg {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.featuredMoneyContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height, or 150% */
+    /* Gray/$-gray-400 Text */
+    color: #535261;
+}
+
+.featuredMoneyRate {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 52px;
+    width: 70px;
+    height: 24px;
+    left: 130.3px;
+    top: 85.53px;
+    background: rgba(255, 149, 1, 0.15);
+    border-radius: 7.18115px;
+}
+
+.featuredMoneyRate-yellow {
+    color: #FF9138;
+}
+
+.featuredMoneyRate-pink {
+    color: #E73F3F;
+}
+
+.featuredMoneyRate .featuredMoneyRate-icon svg {
+    margin-top: 0;
+}
+
+.featuredTitle .negative {
+    width: 40px;
+    height: 32px;
+    margin: 10px 8px 0 0;
+    display: block;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+}
+
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+
+.mainboard-table {
+    width: 910px;
+    height: 436px;
+    margin: 20px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.mainboard-table canvas {
+    height: 386px!important;
+}
+
+.mainboard-table:last-child {
+    height: auto;
+}
+
+.mainboard-table__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainboard-table--right {
+    display: flex;
+}
+
+.mainboard-table--right-title {
+    width: 70px;
+    height: 24px;
+    /* 16/16 Semi */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/$-gray-500 */
+    color: #282739;
+    /* Inside auto layout */
+    order: 0;
+    margin-top: 16px;
+}
+
+.mainboard-table--title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    /* Gray/$-gray-500 */
+    color: #282739;
+}
+
+.mainboard-table--subtitle {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    /* Gray/$-gray-200 placeholder */
+    color: #A9A9B0;
+}

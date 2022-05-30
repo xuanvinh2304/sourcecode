@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  margin-left: 0!important;
+}
+
+.signin {
+  width: 600px!important;
+  background-color: #B1B1B1;
+  height: 718px;
+}
+
+.logo {
+  cursor: pointer; 
+  width: 120px; 
+  margin-top: 100px;
+  margin-left: 140px;;
+}
+
+
+
+.form-size {
+  width: 400px;
+}
+
+.btn {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 22px;
+  right: 8px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}
+
+.image {
+  width: 500px!important;
+  margin: 80px 0 0 150px;
+}
+
+.text {
+  margin-top: 
+}
+
+.text-sub {
+
+}
+
+
+

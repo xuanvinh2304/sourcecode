@@ -1,0 +1,16 @@
+.form {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: -20px;
+  right: 372px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}

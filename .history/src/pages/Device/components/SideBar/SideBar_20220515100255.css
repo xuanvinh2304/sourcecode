@@ -1,0 +1,23 @@
+.btn-signout {
+  margin-top: 200px;
+  color: #FF7506;
+  background: #FFF2E7;
+  align-items: center;
+  padding: 12px;
+  width: 176px;
+  height: 48px;
+}
+
+.btn {
+  background: #FFF2E7!important;
+  border-radius: 8px;
+  border-color: transparent!important;
+  color: #FF7506!important;
+  bottom: 8px;
+  left: 20px;
+}
+
+.anticon svg {
+  margin-top: 8px!important;
+}
+
